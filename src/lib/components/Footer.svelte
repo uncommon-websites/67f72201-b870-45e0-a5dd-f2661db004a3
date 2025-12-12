@@ -5,10 +5,8 @@
 			<div class="lg:col-span-2">
 				<a href="/" class="text-xl font-bold tracking-tight flex items-center gap-2 mb-4">
 					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-foreground">
-						<path d="M4 4H20V20H4V4Z" stroke="currentColor" stroke-width="2"/>
-						<path d="M8 4V20" stroke="currentColor" stroke-width="2"/>
-						<path d="M16 4V20" stroke="currentColor" stroke-width="2"/>
-						<path d="M4 12H20" stroke="currentColor" stroke-width="2"/>
+						<rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+						<path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
 					</svg>
 				</a>
 			</div>
@@ -17,7 +15,7 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Contact</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="mailto:hello@parallel.ai" class="hover:text-foreground">hello@parallel.ai</a></li>
+					<li><a href="mailto:hello@flipsidecrypto.xyz" class="hover:text-foreground">hello@flipsidecrypto.xyz</a></li>
 				</ul>
 			</div>
 
@@ -25,12 +23,12 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Products</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="#" class="hover:text-foreground">Search API</a></li>
-					<li><a href="#" class="hover:text-foreground">Extract API</a></li>
-					<li><a href="#" class="hover:text-foreground">Task API</a></li>
-					<li><a href="#" class="hover:text-foreground">FindAll API</a></li>
-					<li><a href="#" class="hover:text-foreground">Chat API</a></li>
-					<li><a href="#" class="hover:text-foreground">Monitor API</a></li>
+					<li><a href="#" class="hover:text-foreground">FlipAI Chat</a></li>
+					<li><a href="#" class="hover:text-foreground">Dashboard Builder</a></li>
+					<li><a href="#" class="hover:text-foreground">Anti-Sybil Detector</a></li>
+					<li><a href="#" class="hover:text-foreground">Airdrop Optimizer</a></li>
+					<li><a href="#" class="hover:text-foreground">Wallet Targeting</a></li>
+					<li><a href="#" class="hover:text-foreground">Custom Agents</a></li>
 				</ul>
 			</div>
 
@@ -39,10 +37,10 @@
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Resources</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
 					<li><a href="#" class="hover:text-foreground">About</a></li>
-					<li><a href="#" class="hover:text-foreground">Pricing</a></li>
+					<li><a href="#" class="hover:text-foreground">Data Coverage</a></li>
 					<li><a href="#" class="hover:text-foreground">Docs</a></li>
+					<li><a href="#" class="hover:text-foreground">Discord</a></li>
 					<li><a href="#" class="hover:text-foreground">Blog</a></li>
-					<li><a href="#" class="hover:text-foreground">Changelog</a></li>
 					<li><a href="#" class="hover:text-foreground">Careers</a></li>
 				</ul>
 			</div>
@@ -88,7 +86,7 @@
 				</div>
 			</div>
 			<div>
-				Parallel Web Systems Inc. 2025
+				Flipside Crypto, Inc. 2025
 			</div>
 		</div>
 	</div>
@@ -105,12 +103,12 @@
 
 		<div class="relative z-10 flex items-center gap-4 text-[10px] font-mono text-white/50">
 			<div class="flex items-center gap-2 text-white">
-				<span class="w-2 h-2 bg-white rounded-full"></span>
-				HUMAN
+				<span class="w-2 h-2 bg-accent rounded-full"></span>
+				ON-CHAIN
 			</div>
 			<div class="flex items-center gap-2">
 				<span class="w-2 h-2 border border-white/50 rounded-full"></span>
-				MACHINE
+				INTELLIGENCE
 			</div>
 		</div>
 	</div>

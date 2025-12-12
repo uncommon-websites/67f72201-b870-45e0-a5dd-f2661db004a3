@@ -5,38 +5,45 @@
 			<!-- Left Column: CTA & Visual -->
 			<div class="flex flex-col h-full">
 				<div class="mb-8">
-					<p class="font-mono text-xs text-muted mb-4">Start building</p>
-					<h2 class="text-2xl font-medium mb-4">Towards a programmatic web for AIs</h2>
+					<p class="font-mono text-xs text-muted mb-4">Get started</p>
+					<h2 class="text-2xl font-medium mb-4">Blockchain intelligence for protocol teams</h2>
 					<p class="text-muted font-light mb-8 text-sm leading-relaxed max-w-md">
-						Parallel is building new interfaces, infrastructure, and business models for AIs to work with the web
+						Flipside delivers PhD-curated data and embedded AI agents to automate your on-chain analytics. Focus on last-mile logic while we handle the first-mile complexity.
 					</p>
 					<div class="flex gap-3 mb-12">
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							TRY IT FOR FREE
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">P</span>
+							BOOK A DEMO
+							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">D</span>
 						</button>
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							JOIN US
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">J</span>
+							TRY FLIPAI
+							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">F</span>
 						</button>
 					</div>
 				</div>
 				
-				<!-- Barcode Visual -->
-				<div class="mt-auto w-full h-48 bg-black relative overflow-hidden flex items-center justify-center">
-					{#each Array(100) as _, i}
+				<!-- Blockchain Data Visual -->
+				<div class="mt-auto w-full h-48 bg-gradient-to-br from-slate-900 to-slate-800 relative overflow-hidden flex items-center justify-center">
+					<!-- Hexagonal grid pattern -->
+					<div class="absolute inset-0" style="background-image: linear-gradient(30deg, rgba(255,255,255,0.05) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.05) 87.5%, rgba(255,255,255,0.05)), linear-gradient(150deg, rgba(255,255,255,0.05) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.05) 87.5%, rgba(255,255,255,0.05)), linear-gradient(30deg, rgba(255,255,255,0.05) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.05) 87.5%, rgba(255,255,255,0.05)), linear-gradient(150deg, rgba(255,255,255,0.05) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.05) 87.5%, rgba(255,255,255,0.05)); background-size: 80px 140px; background-position: 0 0, 0 0, 40px 70px, 40px 70px;"></div>
+					
+					<!-- Animated data streams -->
+					{#each Array(20) as _, i}
 						<div 
-							class="h-full bg-white absolute" 
+							class="h-full bg-gradient-to-t from-accent/30 to-transparent absolute" 
 							style="
-								left: {i}%; 
-								width: {Math.random() * 2}%; 
-								opacity: {Math.random()};
+								left: {i * 5}%; 
+								width: 2px; 
+								opacity: {Math.random() * 0.5};
+								animation: dataFlow {2 + Math.random() * 2}s ease-in-out infinite;
+								animation-delay: {Math.random() * 2}s;
 							"
 						></div>
 					{/each}
+					
 					<div class="absolute inset-0 flex items-center justify-center">
-						<div class="bg-black text-white font-mono text-[10px] px-2 py-1 z-10">
-							parallel.web
+						<div class="bg-slate-900/90 text-white font-mono text-[10px] px-3 py-1.5 z-10 border border-accent/30">
+							flipside.xyz
 						</div>
 					</div>
 				</div>
@@ -44,57 +51,57 @@
 
 			<!-- Right Column: Updates -->
 			<div>
-				<p class="font-mono text-xs text-muted mb-8">Latest updates</p>
+				<p class="font-mono text-xs text-muted mb-8">Platform capabilities</p>
 				
 				<div class="space-y-12">
 					<!-- Update 1 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 20</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">Foundation</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Extract</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Enterprise-grade curated data</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Extract converts web pages into LLM-ready markdown format. It operates in two modes: compressed excerpts (dense, semantically relevant content) and full content extraction (complete page content). The API is designed for AI agents and handles challenging web content including JavaScript-rendered sites and complex PDFs, making it useful for tasks like documentation extraction, research paper processing, and financial filing analysis.
+								7 trillion rows of on-chain data maintained and curated by PhD data scientists. 700 million labeled wallets scored daily for address intelligence. 30+ blockchain networks covered under one unified schema with direct Snowflake warehouse access.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Data Infrastructure</span>
 						</div>
 					</div>
 
 					<!-- Update 2 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 15</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">Platform</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel FindAll</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Agent-as-a-Service infrastructure</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel's new FindAll API turns natural language queries into custom datasets from the web. It finds entities like companies, people, or locations based on your criteria, then enriches them with structured data—all with citations. FindAll Pro achieves 61% recall, 3x better than competitors.
+								Model Context Protocol (MCP) integration for IDE environments. API access for embedding agent capabilities into your services. Slack integration for conversational interfaces. Deterministic workflow execution with 100% confidence in repeated operations.
 							</p>
 							<div class="flex gap-2">
-								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
-								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Benchmarks</span>
+								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">AI Agents</span>
+								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Automation</span>
 							</div>
 						</div>
 					</div>
 
 					<!-- Update 3 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 13</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">Solutions</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Monitor</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Purpose-built AI applications</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Monitor can be thought of as a web search that's always on: you define a query that kicks off an ongoing stream of updates every time new related information appears on the web.
+								FlipAI Chat for querying 7 trillion rows. Dashboard Builder (beta) for custom visualizations. Anti-Sybil Detector for bot identification. Airdrop Optimizer for targeting real users. Competitive Intelligence Agent. Custom agent development service.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Products</span>
 						</div>
 					</div>
 
 					<!-- Update 4 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 12</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">Partnership</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Parallel raises $100M Series A to build web infrastructure for agents</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">White-glove embedded support</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel raises $100M Series A at a 740M valuation.
+								All partners receive access to full suite of purpose-built AI solutions. Custom agent development and maintenance included. Embedded PhD data scientist support model. Book a demo for white-glove onboarding.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Fundraise</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Service Model</span>
 						</div>
 					</div>
 				</div>
@@ -103,3 +110,10 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	@keyframes dataFlow {
+		0%, 100% { transform: translateY(100%); opacity: 0; }
+		50% { opacity: 0.5; }
+	}
+</style>

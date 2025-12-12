@@ -2,102 +2,81 @@
 	<div class="container-custom">
 		<div class="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
 			<div>
-				<h2 class="text-3xl font-medium mb-2">Highest accuracy at every price point</h2>
-				<p class="text-xl text-muted font-light">State of the art across several benchmarks</p>
+				<h2 class="text-3xl font-medium mb-2">Enterprise-grade blockchain data infrastructure</h2>
+				<p class="text-xl text-muted font-light">Massive scale with unified cross-chain intelligence</p>
 			</div>
 			<div class="max-w-xs text-[10px] text-muted leading-relaxed border-l border-border pl-4">
-				<strong class="text-foreground block mb-1">About this benchmark</strong>
-				This benchmark consists of 2,500 questions developed by subject matter experts across dozens of subjects (e.g. math, humanities, natural sciences). Each question has a known solution that is unambiguous and easily verifiable, but requires sophisticated web retrieval and reasoning. Results are reported on a sample of 100 questions from this benchmark. Learn more in our <a href="#" class="underline">latest blog</a>.
+				<strong class="text-foreground block mb-1">About our data</strong>
+				Flipside maintains 7 trillion rows of curated on-chain data across 30+ blockchain networks. Our PhD data scientists ensure data is standardized under one unified schema, making cross-chain analysis seamless. 700 million wallets are scored daily for address intelligence, providing the most comprehensive blockchain analytics platform available.
 			</div>
 		</div>
 
 		<div class="relative w-full h-[500px] border border-border bg-primary-50/30 p-8 font-mono text-xs">
-			<!-- Chart Grid -->
-			<div class="absolute inset-0 p-8 grid grid-rows-6 grid-cols-1">
-				<div class="border-b border-dashed border-gray-200 w-full h-full"></div>
-				<div class="border-b border-dashed border-gray-200 w-full h-full"></div>
-				<div class="border-b border-dashed border-gray-200 w-full h-full"></div>
-				<div class="border-b border-dashed border-gray-200 w-full h-full"></div>
-				<div class="border-b border-dashed border-gray-200 w-full h-full"></div>
-				<div class="border-b border-dashed border-gray-200 w-full h-full"></div>
-			</div>
+			<!-- Grid Background -->
+			<div class="absolute inset-0 p-8" style="background-image: linear-gradient(rgba(0,0,0,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.05) 1px, transparent 1px); background-size: 40px 40px;"></div>
 			
-			<!-- Y Axis Label -->
-			<div class="absolute left-2 top-1/2 -translate-y-1/2 -rotate-90 text-muted origin-center whitespace-nowrap">
-				ACCURACY (%)
-			</div>
-
-			<!-- X Axis Label -->
-			<div class="absolute bottom-2 left-1/2 -translate-x-1/2 text-muted">
-				COST (CPM)
-			</div>
-
-			<!-- Top Left Legend -->
-			<div class="absolute top-4 left-4 flex gap-4 text-[10px] text-muted">
-				<span class="bg-gray-200 px-1 rounded text-foreground">MMLU-Search</span>
-				<span>BrowseComp Search</span>
-				<span>BrowseComp</span>
-				<span>DeepResearch Bench</span>
-				<span>WISER-Atomic</span>
-			</div>
-
-			<!-- Data Points -->
-			
-			<!-- Parallel (The Winner) -->
-			<div class="absolute top-[15%] left-[15%] flex flex-col items-center group cursor-pointer z-10">
-				<div class="flex items-center gap-2 mb-1">
-					<span class="text-accent font-bold">PARALLEL</span>
+			<!-- Three-Tier Architecture Visualization -->
+			<div class="absolute inset-8 flex flex-col gap-6">
+				
+				<!-- Foundation Layer -->
+				<div class="flex-1 border-2 border-accent bg-white rounded p-6 relative">
+					<div class="absolute -top-3 left-4 bg-white px-2 text-accent font-bold text-sm">FOUNDATION LAYER</div>
+					<div class="grid grid-cols-3 gap-4 h-full">
+						<div class="flex flex-col justify-center items-center text-center">
+							<div class="text-2xl font-bold text-accent mb-1">7T</div>
+							<div class="text-[10px] text-muted">Rows of Data</div>
+						</div>
+						<div class="flex flex-col justify-center items-center text-center border-x border-border">
+							<div class="text-2xl font-bold text-accent mb-1">700M</div>
+							<div class="text-[10px] text-muted">Labeled Wallets</div>
+						</div>
+						<div class="flex flex-col justify-center items-center text-center">
+							<div class="text-2xl font-bold text-accent mb-1">30+</div>
+							<div class="text-[10px] text-muted">Blockchain Networks</div>
+						</div>
+					</div>
+					<div class="absolute bottom-2 left-4 text-[9px] text-muted">Enterprise-grade curated data • Direct SQL access • Unified schema</div>
 				</div>
-				<div class="w-3 h-3 bg-accent rounded-full shadow-[0_0_0_4px_rgba(255,68,0,0.2)]"></div>
-				<div class="mt-1 text-[10px] text-accent">67% / $2CPM</div>
-			</div>
 
-			<!-- OpenAI GPT-4 -->
-			<div class="absolute top-[25%] left-[45%] flex flex-col items-center group cursor-pointer">
-				<div class="flex items-center gap-2 mb-1 opacity-0 group-hover:opacity-100 transition-opacity">
-					<span class="font-bold">OPENAI GPT-4</span>
+				<!-- Infrastructure Layer -->
+				<div class="flex-1 border-2 border-blue-500 bg-white rounded p-6 relative">
+					<div class="absolute -top-3 left-4 bg-white px-2 text-blue-600 font-bold text-sm">INFRASTRUCTURE LAYER</div>
+					<div class="flex items-center justify-around h-full">
+						<div class="text-center">
+							<div class="w-12 h-12 mx-auto mb-2 border-2 border-blue-500 rounded flex items-center justify-center">
+								<div class="w-6 h-6 bg-blue-500 rounded"></div>
+							</div>
+							<div class="text-[10px] text-muted">MCP Integration</div>
+						</div>
+						<div class="text-center">
+							<div class="w-12 h-12 mx-auto mb-2 border-2 border-blue-500 rounded flex items-center justify-center">
+								<div class="w-6 h-6 bg-blue-500 rounded"></div>
+							</div>
+							<div class="text-[10px] text-muted">API Access</div>
+						</div>
+						<div class="text-center">
+							<div class="w-12 h-12 mx-auto mb-2 border-2 border-blue-500 rounded flex items-center justify-center">
+								<div class="w-6 h-6 bg-blue-500 rounded"></div>
+							</div>
+							<div class="text-[10px] text-muted">Slack Integration</div>
+						</div>
+					</div>
+					<div class="absolute bottom-2 left-4 text-[9px] text-muted">Agent-as-a-Service platform • AI-in-the-loop operations</div>
 				</div>
-				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">65% / $15CPM</div>
-			</div>
 
-			<!-- Perplexity -->
-			<div class="absolute top-[55%] left-[35%] flex flex-col items-center group cursor-pointer">
-				<div class="flex items-center gap-2 mb-1 opacity-100">
-					<span class="font-bold text-[10px]">PERPLEXITY</span>
+				<!-- Solutions Layer -->
+				<div class="flex-1 border-2 border-foreground bg-white rounded p-6 relative">
+					<div class="absolute -top-3 left-4 bg-white px-2 text-foreground font-bold text-sm">SOLUTIONS LAYER</div>
+					<div class="flex items-center justify-between h-full px-4">
+						<span class="text-[10px] text-muted">FlipAI Chat</span>
+						<span class="text-[10px] text-muted">Dashboard Builder</span>
+						<span class="text-[10px] text-muted">Anti-Sybil</span>
+						<span class="text-[10px] text-muted">Airdrop Optimizer</span>
+						<span class="text-[10px] text-muted">Custom Agents</span>
+					</div>
+					<div class="absolute bottom-2 left-4 text-[9px] text-muted">Purpose-built AI applications for specific use cases</div>
 				</div>
-				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">30% / $10CPM</div>
-			</div>
 
-			<!-- ERA -->
-			<div class="absolute top-[65%] left-[40%] flex flex-col items-center group cursor-pointer">
-				<div class="flex items-center gap-2 mb-1 opacity-100">
-					<span class="font-bold text-[10px]">ERA</span>
-				</div>
-				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">24% / $15CPM</div>
-			</div>
-
-			<!-- TAVILY -->
-			<div class="absolute top-[80%] right-[20%] flex flex-col items-center group cursor-pointer">
-				<div class="flex items-center gap-2 mb-1 opacity-100">
-					<span class="font-bold text-[10px]">TAVILY</span>
-				</div>
-				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">21% / $30CPM</div>
-			</div>
-
-			<!-- Bottom Right Legend -->
-			<div class="absolute bottom-4 right-4 flex items-center gap-4 text-[10px]">
-				<div class="flex items-center gap-1">
-					<div class="w-2 h-2 bg-accent rounded-full"></div>
-					<span class="text-accent font-bold">PARALLEL</span>
-				</div>
-				<div class="flex items-center gap-1">
-					<div class="w-2 h-2 bg-black rounded-full"></div>
-					<span class="text-muted">OTHERS</span>
-				</div>
 			</div>
 		</div>
 	</div>
